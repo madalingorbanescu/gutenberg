@@ -32,11 +32,7 @@ export const _default = () => {
 	return (
 		<PanelWrapperView>
 			<Panel>
-				<ToolsPanel
-					header="Tools Panel"
-					label="Display options"
-					resetAll={ resetAll }
-				>
+				<ToolsPanel label="Tools Panel" resetAll={ resetAll }>
 					<ToolsPanelItem
 						className="single-column"
 						hasValue={ () => !! height }
